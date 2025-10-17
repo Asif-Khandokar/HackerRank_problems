@@ -1,0 +1,6 @@
+x, min_v, max_v = input().split()
+x = float(x)
+min_v = float(min_v)
+max_v = float(max_v)
+norm = (x - min_v) / (max_v - min_v)
+print(f"{norm:.2f}")
