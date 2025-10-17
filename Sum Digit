@@ -1,0 +1,8 @@
+n = int(input())
+digits_str = input().strip()[:n]
+
+total = 0
+for i in range(n):
+    total += int(digits_str[i])
+
+print(total)
