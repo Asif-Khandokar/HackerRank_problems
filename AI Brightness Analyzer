@@ -1,0 +1,33 @@
+value = [int(x) for x in input().split()]
+
+# total_value = 0
+
+# for i in range(len(value)):
+#     total_value+=value[i]
+#     count= len(value)
+    
+# average = total_value/count
+
+# if average < 85:
+#     print("Dark Image")
+# elif average <= 170:
+#     print("Normal Image")
+# elif average > 170:
+#     print("Bright Image")
+
+total = sum(value)
+n = len(value)
+a = total/n
+
+if a < 85:
+    print("Dark Image")
+elif a <= 170:
+    print("Normal Image")
+elif a > 170:
+    print("Bright Image")
+
+
+
+
+
+
