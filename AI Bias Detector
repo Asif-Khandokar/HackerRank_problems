@@ -1,0 +1,21 @@
+p = input().split()
+
+num_A = 0
+num_B = 0
+
+for item in p:
+    if item == "A":
+        num_A+=1
+    elif item == "B":
+        num_B+=1
+
+total = len(p)
+
+percent_A = num_A/total
+percent_B = num_B/total
+
+if percent_A > 0.7 or percent_B >0.7:
+    print("Biased Model")
+else:
+    print("Fair Model")
+    
