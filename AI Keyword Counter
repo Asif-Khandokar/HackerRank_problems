@@ -1,0 +1,12 @@
+key = ['ai', 'data', 'learn', 'train', 'neural','model']
+
+message = input().split()
+
+count = 0
+for i in key:
+    if i in message:
+        count +=1
+if count >=2:
+    print ("AI Detected")
+else:
+    print("Not AI Related")
