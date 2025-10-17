@@ -1,0 +1,7 @@
+brightness, threshold = input().split()
+brightness = float(brightness)
+threshold = float(threshold)
+if brightness >= threshold :
+    print("ON")
+else:
+    print("OFF")
