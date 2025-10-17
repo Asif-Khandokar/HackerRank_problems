@@ -1,0 +1,17 @@
+num = int(input())
+a = list(map(int,input().split()))
+
+
+minimum = min(a)
+maximum = max(a)
+
+index_min = a.index(minimum)
+index_max = a.index(maximum)
+
+# swapping two numbers
+
+temp = a[index_min]
+a[index_min]=a[index_max]
+a[index_max]=temp
+
+print(' ' .join(map(str,a)))
